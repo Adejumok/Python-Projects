@@ -1,4 +1,5 @@
 import random
+
 correct_guess = random.randint(0, 100)
 number_count = 0
 while number_count < 5:
@@ -15,5 +16,6 @@ while number_count < 5:
 
     number_count += 1
 
-else: print("Eeeyaa...! You tried but all your attempts are wrong.")
+else:
+    print("Eeeyaa...! You tried but all your attempts are wrong.")
 print("The correct number is", correct_guess)
