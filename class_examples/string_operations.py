@@ -1,5 +1,8 @@
 import string
 
+g = 'wawu no dey carry last'
+print(g.split())
+print(g.partition('wawu'))
 s = 'hello'
 print(s.upper())
 print(s.lower())
@@ -28,4 +31,3 @@ print(f.replace("0", "1", 3))
 print(f.translate(str.maketrans("01", "10")))
 print(string.digits)
 print(string.ascii_letters)
-
